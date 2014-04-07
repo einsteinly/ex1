@@ -1,3 +1,7 @@
+<h1>----------Ideas for Raffles Invent--------------</h1>
+<h1>-----------------By Li Xi-----------------------</h1>
+
+
 <%= form_for(@idea) do |f| %>
   <% if @idea.errors.any? %>
     <div id="error_explanation">
@@ -21,7 +25,7 @@
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_field :description %>
+    <%= f.text_area :description %>
   </div>
   <div class="actions">
     <%= f.submit %>
