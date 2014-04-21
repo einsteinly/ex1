@@ -1,6 +1,9 @@
 <h1>----------Ideas for Raffles Invent--------------</h1>
 <h1>-----------------By Li Xi-----------------------</h1>
-<img src='http://upload.wikimedia.org/wikipedia/en/9/99/Raffles_Institution_Coat_of_Arms.png' alt='RI'>
+<img src='http://upload.wikimedia.org/wikipedia/en/9/99/Raffles_Institution_Coat_of_Arms.png' 
+     alt='http://upload.wikimedia.org/wikipedia/en/9/99/Raffles_Institution_Coat_of_Arms.png' 
+     height = "300"
+     width = "212">
 
 <table>
   <thead>
@@ -22,7 +25,7 @@
         <td><%= idea.description %></td>
         <td><%= link_to 'Show', idea %></td>
         <td><%= link_to 'Edit', edit_idea_path(idea) %></td>
-        <td><%= link_to 'Destroy', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
