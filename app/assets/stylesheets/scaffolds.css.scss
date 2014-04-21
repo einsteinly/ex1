@@ -2,20 +2,20 @@ body {
   background-color: blue;
   color: red;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 21px;
+  line-height: 23px;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 21px;
+  line-height: 23px;
 }
 
 pre {
   background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
+  padding: 23px;
+  font-size: 21px;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 
 div {
   &.field, &.actions {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 
@@ -40,7 +40,7 @@ div {
 }
 
 .field_with_errors {
-  padding: 2px;
+  padding: 5px;
   background-color: red;
   display: table;
 }
