@@ -1,6 +1,6 @@
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: blue;
+  color: red;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -19,13 +19,13 @@ pre {
 }
 
 a {
-  color: #000;
+   color: red;
   &:visited {
-    color: #666;
+    color: red;
   }
   &:hover {
-    color: #fff;
-    background-color: #000;
+     color: red;
+    background-color: blue;
   }
 }
 
