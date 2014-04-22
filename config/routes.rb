@@ -1,4 +1,6 @@
 Ex1::Application.routes.draw do
+  resources :comments
+
   resources :ideas
 
   

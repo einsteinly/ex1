@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Name_of_guest: MyString
+  BHAG: MyString
+  basic_idea: MyString
+  headline: MyString
+  analogy: MyString
+
+two:
+  Name_of_guest: MyString
+  BHAG: MyString
+  basic_idea: MyString
+  headline: MyString
+  analogy: MyString

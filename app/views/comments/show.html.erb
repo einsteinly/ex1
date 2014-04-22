@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name of guest:</strong>
+  <%= @comment.Name_of_guest %>
+</p>
+
+<p>
+  <strong>Bhag:</strong>
+  <%= @comment.BHAG %>
+</p>
+
+<p>
+  <strong>Basic idea:</strong>
+  <%= @comment.basic_idea %>
+</p>
+
+<p>
+  <strong>Headline:</strong>
+  <%= @comment.headline %>
+</p>
+
+<p>
+  <strong>Analogy:</strong>
+  <%= @comment.analogy %>
+</p>
+
+<%= link_to 'Edit', edit_comment_path(@comment) %> |
+<%= link_to 'Back', comments_path %>
