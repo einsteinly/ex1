@@ -9,7 +9,7 @@ Ex1::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'ideas#index'
-  match '/comments', to: 'static_pages#index', via: 'get'
+  match '/comments', to: comments_path, via: 'get'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
